@@ -292,7 +292,7 @@ footer {
 
   .inicio-texto {
     flex: auto;
-    min-width: 1%; /*700px*/
+    min-width: 100%; /*700px*/
     max-width: 100%;/*600px*/
   }
   
