@@ -293,14 +293,14 @@ footer {
   .inicio-texto {
     flex: auto;
     min-width: 1%; /*700px*/
-    max-width: 60%;/*600px*/
+    max-width: 100%;/*600px*/
   }
   
- .video-izquierda {
+  .video-izquierda {
     display: flex;
     flex-direction: column;
     align-items: center; /* o flex-start si quieres alinear a la izquierda */
-    max-width: 90%;
+    max-width: 50%;
     flex: 1;
   }
   
