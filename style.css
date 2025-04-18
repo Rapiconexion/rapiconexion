@@ -75,13 +75,15 @@ h2 {
 .inicio-contenedor {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px;
 }
 
 .inicio-texto {
-  flex: 1 1 60%;
-  padding-left: 20px;
+  flex: 1 1 50%;
+  max-width: 600px;
 }
 
 .video-izquierda {
@@ -89,17 +91,17 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 400px;
 }
 
 .video-izquierda video {
   width: 100%;
-  max-width: 350px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .btn-servicio {
-  margin-top: 1rem;
+  margin-top: 20px;
   padding: 10px 20px;
   background-color: #007bff;
   color: #fff;
@@ -111,6 +113,7 @@ h2 {
 .btn-servicio:hover {
   background-color: #0056b3;
 }
+
 
 /* SERVICIOS */
 .servicios-video-y-lista {
@@ -161,20 +164,26 @@ h2 {
 .nosotros-contenedor {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
   gap: 40px;
-  max-width: 1500px;
-  margin: auto;
+  padding: 40px 20px;
 }
 
 .nosotros-texto {
-  flex: 1;
-  min-width: 300px;
+  flex: 1 1 55%;
   max-width: 600px;
 }
 
+.nosotros-imagen {
+  flex: 1 1 40%;
+  max-width: 350px;
+  text-align: center;
+}
+
 .nosotros-imagen img {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
