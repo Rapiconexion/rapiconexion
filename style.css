@@ -81,14 +81,21 @@ header {
 
 /* Estilo de las Secciones */
 section {
-    padding: 20px;
-    margin: 10px;
-    padding-top: 95px; /* Ajusta este valor según el alto de tu header */
+    padding: 0px;
+    margin: 0px;
+    padding-top: 100px; /* Ajusta este valor según el alto de tu header */
 }
+.contenido-limitado {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
 
 h2 {
     color: #082d6c;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     padding: 0px;
     font-size: 2rem;
     text-align: center;
