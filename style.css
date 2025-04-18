@@ -301,7 +301,7 @@ footer {
     flex-direction: column;
     align-items: flex-start; /* o flex-start si quieres alinear a la izquierda */
     max-width: 50%;
-    flex: auto;
+    flex: 1;
   }
   
   
