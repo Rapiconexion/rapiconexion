@@ -23,13 +23,31 @@ header {
 /* Barra de navegación */
 .navbar {
     background-color: #f21513;
-    height: 40px;
+    /*height: 40px;*/
     display: flex;
     align-items: center;
     padding: 0 20px;
-    justify-content: center;
-   
+    justify-content: center; /* centra los elementos si se envuelven */
 
+    flex-wrap: wrap;
+    height: auto; /* permite que crezca en altura si no cabe en una sola línea */
+  
+}
+
+/* Menú */
+.nav-links {
+  /*list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;*/
+
+flex-wrap: wrap;
+justify-content: center;
+width: 100%;
+gap: 10px;
+padding: 10px 0;
+margin: 0;
 }
 
 /* Si tu imagen tiene altura que deja espacio, limítala */
@@ -53,14 +71,7 @@ header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 } 
 
-/* Menú */
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-    margin: 0;
-    padding: 0;
-}
+
 
 .nav-links li a {
     text-decoration: none;
