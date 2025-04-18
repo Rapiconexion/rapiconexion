@@ -289,29 +289,33 @@ footer {
   gap: 1%; /*40px*/
   padding: 3%; /*40px*/
 }
-
-  .inicio-texto {
-    flex: auto;
-    min-width: 100%; /*700px*/
-    max-width: 100%;/*600px*/
+.inicio-texto {
+    flex: 1;
+    min-width: 60%; /*700px*/
+    max-width: 60%;/*600px*/
+    text-align: left;
+    padding-left: 40px; /* Reduce el espacio desde la izquierda */
   }
   
   .video-izquierda {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* o flex-start si quieres alinear a la izquierda */
+    align-items: center; /* o flex-start si quieres alinear a la izquierda */
     max-width: 50%;
     flex: 1;
   }
   
-  
   .video-izquierda video {
     width: 100%;
-     max-width: 400px; /* Puedes subirlo a 700px o más si lo deseas */
+     max-width: 100%; /* Puedes subirlo a 700px o más si lo deseas */
      height: center;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   }
+  
+  
+  
+ 
   
   .btn-servicio {
     margin-top: 1rem;
