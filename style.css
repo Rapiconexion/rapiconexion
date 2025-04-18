@@ -1,4 +1,3 @@
-
 /* Estilo General */
 body {
     font-family: Arial, sans-serif;
@@ -16,7 +15,7 @@ header {
     box-shadow: 0% 2% 8% rgba(0,0,0,0.2);
     position: sticky;
     top: 0;
-    z-index: 1000%;
+    z-index: 100%;
     height: 100%; /* Ajusta la altura del header si es necesario */
     
 }
@@ -94,12 +93,12 @@ gap: 1%;
 section {
     padding: 0%;
     margin: 0%;
-    padding-top: 6%; /* Ajusta este valor según el alto de tu header */
+    padding-top: 5%; /* Ajusta este valor según el alto de tu header */
 }
 .contenido-limitado {
   max-width: 50%;
   margin: 0% auto;
-  padding: 0% 3%;
+  padding: 0% 10%;
   box-sizing: border-box;
 }
 
@@ -112,6 +111,7 @@ h2 {
     text-align: center;
 
 }
+
 /* Estilo de los Formularios */
 form {
     background-color: #fff;
@@ -168,18 +168,18 @@ footer {
 
 /* Estilo del video */
 .video-izquierda video {
-    width: 100%;
-    max-width: 350px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    width: 50%;
+    max-width: 100%;
+    border-radius: 10%;
+    box-shadow: 0 0 10% rgba(0,0,0,0.3);
 }
 
 /* Lista de servicios */
 .lista-servicios {
     list-style-type: disc;
-    padding-left: 20px;
+    padding-left: 20%;
     font-size: 1.1em;
-    max-width: 400px;
+    max-width: 100%;
     line-height: 1.6;
 }
 
@@ -188,10 +188,10 @@ footer {
 #servicios h2 {
     text-align: center;
     font-size: 2em;
-    margin-top: 20px;
+    margin-top: 2%;
     color: #082d6c;
-    margin-bottom: 10px;
-    padding: 30px;
+    margin-bottom: 3%;
+    padding: 2%;
     
 }
 
@@ -286,21 +286,21 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center; /* <--- Esto es lo que centra el video verticalmente */
-  gap: 40px;
-  padding: 40px;
+  gap: 1%; /*40px*/
+  padding: 3%; /*40px*/
 }
 
   .inicio-texto {
     flex: 1;
-    min-width: 700px;
-    max-width: 600px;
+    min-width: 1%; /*700px*/
+    max-width: 100%;/*600px*/
   }
   
   .video-izquierda {
     display: flex;
     flex-direction: column;
     align-items: center; /* o flex-start si quieres alinear a la izquierda */
-    max-width: 50%;
+    max-width: 100%;
     flex: 1;
   }
   
