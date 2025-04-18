@@ -296,13 +296,14 @@ footer {
     max-width: 60%;/*600px*/
   }
   
-  .video-izquierda {
+ .video-izquierda {
     display: flex;
     flex-direction: column;
     align-items: center; /* o flex-start si quieres alinear a la izquierda */
-    max-width: 40%;
-    flex: auto;
+    max-width: 90%;
+    flex: 1;
   }
+  
   
   .video-izquierda video {
     width: 100%;
