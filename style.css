@@ -1,3 +1,4 @@
+
 /* Estilo General */
 body {
     font-family: Arial, sans-serif;
@@ -45,16 +46,15 @@ header {
 flex-wrap: wrap;
 justify-content: right;
 width: 100%;
-gap: 2%;
+gap: 1%;
 
 }
-    
 
 /* Si tu imagen tiene altura que deja espacio, limítala */
 .logo-img {
-    height: 70px;
-    margin: 0;
-    padding: 0;
+    height: 70%;
+    margin: 0%;
+    padding: 0%;
     vertical-align: middle;
     /*width: auto;*/
     object-fit: contain; /* Mantiene la proporción del logo sin distorsionarse */
@@ -65,7 +65,7 @@ gap: 2%;
 
 /* Logo */
 .logo {
-    font-size: 28px;
+    font-size: 28%;
     font-weight: bold;
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
@@ -76,43 +76,42 @@ gap: 2%;
 .nav-links li a {
     text-decoration: none;
     color: #f0f0f0;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 100%;
+    font-weight: 100%;
     transition: color 0.3s ease, border-bottom 0.3s ease;
-    padding-bottom: 5px;
+    padding-bottom: 5%;
     position: relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nav-links li a:hover {
     color: #00d1ff;
-    border-bottom: 2px solid #00d1ff;
+    border-bottom: 2% solid #00d1ff;
 }
 
 
 /* Estilo de las Secciones */
 section {
-    padding: 0px;
-    margin: 0px;
-    padding-top: 100px; /* Ajusta este valor según el alto de tu header */
+    padding: 0%;
+    margin: 0%;
+    padding-top: 6%; /* Ajusta este valor según el alto de tu header */
 }
 .contenido-limitado {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 0 15px;
+  max-width: 50%;
+  margin: 0% auto;
+  padding: 0% 3%;
   box-sizing: border-box;
 }
 
 
 h2 {
     color: #082d6c;
-    margin-bottom: 0px;
-    padding: 0px;
+    margin-bottom: 0%;
+    padding: 0%;
     font-size: 2rem;
     text-align: center;
 
 }
-
 /* Estilo de los Formularios */
 form {
     background-color: #fff;
