@@ -22,7 +22,7 @@ header {
   top: 0;
   z-index: 100;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  padding: 10px 0;
+  padding: 0px 0;
   /*height: 60px;*/
 }
 
@@ -63,8 +63,8 @@ header {
 
 /* SECCIONES */
 section {
-  scroll-margin-top: 40px;
-  padding: 40px 20px;
+  scroll-margin-top: 20px;
+  padding: 70px 20px;
 }
 
 h2 {
