@@ -55,7 +55,7 @@ header {
 }
 
 html {
-  scroll-padding-top: 25px; /* ajusta según la altura de tu header */
+  scroll-padding-top: 100px; /* ajusta según la altura de tu header */
 }
 
 /* SECCIONES */
