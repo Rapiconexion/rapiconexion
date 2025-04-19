@@ -273,7 +273,7 @@ h2 {
   object-fit: cover;
   max-height: 200px;
 }
-@media (max-width: 768px) {
+@media (max-width: 100%) {
   .inicio-contenedor,
   .nosotros-contenedor {
     flex-direction: column;
