@@ -10,6 +10,11 @@ body {
   background-color: #f4f4f4;
 }
 
+html {
+  scroll-padding-top: 100px;
+  scroll-behavior: smooth;
+}
+
 /* HEADER */
 header {
   background-color: #ffffff;
@@ -17,7 +22,6 @@ header {
   top: 0;
   z-index: 100;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  height: 100px;
 }
 
 .logo-img {
@@ -55,15 +59,12 @@ header {
   border-bottom: 2px solid #00d1ff;
 }
 
-html {
-  scroll-padding-top: 100px;
-  scroll-behavior: smooth;
-}
-
+/* SECCIONES */
 section {
   scroll-margin-top: 100px;
-  padding: 60px 20px;
+  padding: 20px 20px;
 }
+
 h2 {
   color: #082d6c;
   text-align: center;
@@ -118,7 +119,6 @@ h2 {
 .btn-servicio:hover {
   background-color: #0056b3;
 }
-
 
 /* SERVICIOS */
 .servicios-video-y-lista {
@@ -278,7 +278,6 @@ h2 {
   object-fit: cover;
   max-height: 200px;
 }
-
 
 /* FOOTER */
 footer {
