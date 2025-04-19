@@ -11,7 +11,7 @@ body {
 }
 
 html {
-  scroll-padding-top: 40px;
+  scroll-padding-top: 60px;
   scroll-behavior: smooth;
 }
 
@@ -63,7 +63,7 @@ header {
 
 /* SECCIONES */
 section {
-  
+  scroll-margin-top: 40px;
   padding: 40px 20px;
 }
 
