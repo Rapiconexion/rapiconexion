@@ -55,14 +55,14 @@ header {
 }
 
 html {
-  scroll-padding-top: 100px; /* ajusta según la altura de tu header */
+  scroll-padding-top: 100px;
+  scroll-behavior: smooth;
 }
 
-/* SECCIONES */
 section {
+  scroll-margin-top: 100px;
   padding: 60px 20px;
 }
-
 h2 {
   color: #082d6c;
   text-align: center;
