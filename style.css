@@ -61,6 +61,12 @@ header {
   border-bottom: 2px solid #00d1ff;
 }
 
+p {
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+
 /* SECCIONES */
 section {
   scroll-margin-top: 20px;
