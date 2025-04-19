@@ -56,13 +56,13 @@ header {
 }
 
 html {
-  scroll-padding-top: 50px;
+  scroll-padding-top: 100px;
   scroll-behavior: smooth;
 }
 
 section {
-  scroll-margin-top: 50px;
-  padding: 20px 20px;
+  scroll-margin-top: 100px;
+  padding: 60px 20px;
 }
 h2 {
   color: #082d6c;
