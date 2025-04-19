@@ -273,6 +273,23 @@ h2 {
   object-fit: cover;
   max-height: 200px;
 }
+@media (max-width: 768px) {
+  .inicio-contenedor,
+  .nosotros-contenedor {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inicio-texto,
+  .video-izquierda,
+  .nosotros-texto,
+  .nosotros-imagen {
+    max-width: 100%;
+  }
+}
+
+
+
 
 /* FOOTER */
 footer {
