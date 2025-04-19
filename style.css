@@ -17,6 +17,7 @@ header {
   top: 0;
   z-index: 100;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  height: 80px;
 }
 
 .logo-img {
