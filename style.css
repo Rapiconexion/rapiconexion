@@ -62,7 +62,7 @@ header {
 
 /* SECCIONES */
 section {
-  /*scroll-margin-top: 120px;*/
+  scroll-margin-top: 0;
   padding: 30px 20px;
 }
 
