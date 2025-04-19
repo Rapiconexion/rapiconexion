@@ -56,12 +56,12 @@ header {
 }
 
 html {
-  scroll-padding-top: 80px;
+  scroll-padding-top: 50px;
   scroll-behavior: smooth;
 }
 
 section {
-  scroll-margin-top: 80px;
+  scroll-margin-top: 50px;
   padding: 60px 20px;
 }
 h2 {
