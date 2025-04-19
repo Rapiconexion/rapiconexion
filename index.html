@@ -5,11 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rapiconexion - Soluciones Eléctricas e Informáticas</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .frases-header {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #082d6c;
+      animation: fadeIn 1s ease-in-out;
+      max-width: 280px;
+      text-align: right;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @media (max-width: 768px) {
+      .frases-header {
+        position: static;
+        text-align: center;
+        margin-top: 10px;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
-    <div class="logo">
+    <div class="logo" style="position: relative;">
       <img src="img/imagen1.jpeg" alt="Logo Rapiconexion" class="logo-img">
+      <div class="frases-header" id="frase-header">
+        <!-- Las frases rotarán aquí -->
+      </div>
     </div>
     <nav class="navbar">
       <ul class="nav-links">
@@ -173,5 +203,27 @@
   <footer>
     <p>&copy; 2025 Rapiconexion. Todos los derechos reservados.</p>
   </footer>
+
+  <script>
+    const frases = [
+      "⚡ La energía correcta impulsa tus proyectos.",
+      "🧠 Tecnología e innovación al servicio de tu hogar.",
+      "🔧 Soluciones eléctricas e informáticas a tu alcance.",
+      "💡 Conectamos ideas, construimos futuro.",
+      "🛠️ Rapidez, compromiso y eficiencia garantizados."
+    ];
+
+    let fraseActual = 0;
+    const contenedor = document.getElementById('frase-header');
+
+    function mostrarFrase() {
+      contenedor.textContent = frases[fraseActual];
+      fraseActual = (fraseActual + 1) % frases.length;
+    }
+
+    mostrarFrase();
+    setInterval(mostrarFrase, 4000);
+  </script>
 </body>
 </html>
+
