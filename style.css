@@ -63,13 +63,13 @@ header {
 /* SECCIONES */
 section {
   scroll-margin-top: 0;
-  padding: 30px 20px;
+  padding: 40px 20px;
 }
 
 h2 {
   color: #082d6c;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   font-size: 2rem;
 }
 
@@ -163,8 +163,7 @@ h2 {
 /* NOSOTROS */
 #nosotros {
   background-color: #f9f9f9;
-  padding-top: 100px;
-  margin-top: -80px;
+  padding: 40px 20px;
 }
 
 .nosotros-contenedor {
