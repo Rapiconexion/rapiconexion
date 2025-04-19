@@ -54,6 +54,10 @@ header {
   border-bottom: 2px solid #00d1ff;
 }
 
+html {
+  scroll-padding-top: 25px; /* ajusta según la altura de tu header */
+}
+
 /* SECCIONES */
 section {
   padding: 60px 20px;
